@@ -6,6 +6,11 @@ def hello():
     name = "Hello World"
     return name
 
+@app.route('/good')
+def hello():
+    name = "good"
+    return name
+
 ## おまじない
 if __name__ == "__main__":
     app.run(debug=True)
